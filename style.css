@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+    --hindcha_shrift: "Hind Siliguri", serif;
+    --orange: #FF7235;
+}
+
+body {
+    font-family: var(--hindcha_shrift);
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header__nav */
+.header {
+    margin-top: 61px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav_container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav_logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav_logo-link {
+    font-family: var(--hindcha_shrift);
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 21.85px;
+    letter-spacing: 0%;
+    color: #292830;
+}
+
+.nav_menu-list {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.nav__menu-link {
+    font-family: var(--hindcha_shrift);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17.1px;
+    letter-spacing: 0%;
+    color: #292830;
+}
+
+.nav__btn-link {
+    padding: 16px 18px;
+    border: 1px solid #FF7235;
+    border-radius: 8px;
+    transition: .5s;
+    color: #FF7235;
+}
+
+.nav__btn-link:hover {
+    background-color: #FF7235;
+    color: #fff;
+}
+
+.header-content {
+    margin-top: 106px;
+}
+
+.header__content-title_and-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__content-text {
+    row-gap: 20px;
+}
+
+.header__content-title {
+    font-family: var(--hindcha_shrift);
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    letter-spacing: 0%;
+    color: #292830;
+}
+
+.header__content-desc {
+    font-family: var(--hindcha_shrift);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38.81px;
+    letter-spacing: 0%;
+    color: #BDBDBD;
+}
+
+.header__content-btn {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__content-btn_link {
+    gap: 10px;
+    border-radius: 8px;
+    padding-top: 18px;
+    padding-right: 24px;
+    padding-bottom: 18px;
+    padding-left: 24px;
+    background: #FF7235;
+    color: #fff;
+    transition: .5s;
+}
+
+.header__content-btn_link:hover {
+    background: #fff;
+    color: #FF7235;
+    border: 1px solid #FF7235;
+}
+
+.header__content-btn_title {
+    font-family: var(--hindcha_shrift);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38.81px;
+    letter-spacing: 0%;
+    color: #BDBDBD;
+}
+
+.section_overviev {
+    width: 1240px;
+    height: 900px;
+    top: 900px;
+    background: url(./img/Blob.png) no-repeat center center/cover;
+    background-color: #FF7235;
+    margin: 0 auto;
+}
+
+.main__section-overviev_img {
+    margin: 0 auto;
+    margin-top: 87px;
+    margin-left: 50px;
+}
+
+.main__section-overviev_img2 {
+    width: 1240px;
+    height: 188px;
+    top: 712px;
+    margin-left: -20px;
+    margin-top: -7px;
+}
+
+.section_free-some_cost {
+    width: 1040px;
+    height: 820px;
+    top: 2620px;
+}
+
+.section2__box {
+    max-width: 1240px;
+    height: 820px;
+    top: 2620px;
+    display: flex;
+    gap: 28px;
+}
+
+.section2_box-img {
+    max-width: 540px;
+    height: 431.5845031738281px;
+    top: 194px;
+    left: 167px;
+    margin-left: 77px;
+}
+
+.section2__content {
+    max-width: 540px;
+    height: 537px;
+    top: 142px;
+    left: 735px;
+    row-gap: 24px;
+}
+
+.section2__content-titleh2 {
+    font-family: var(--hindcha_shrift);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35.57px;
+    letter-spacing: 0%;
+    color: #BDBDBD;
+    max-width: 163;
+}
+
+.section2__content-titleh1 {
+    font-family: var(--hindcha_shrift);
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    letter-spacing: 0%;
+    max-width: 540;
+
+}
+
+.section2__content-text {
+    max-width: 540px;
+    font-family: var(--hindcha_shrift);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38.81px;
+    letter-spacing: 0%;
+    color: #BDBDBD;
+}
+
+.section2__content-btn {
+    max-width: 152px;
+    gap: 12px;
+    align-items: center;
+    margin-top: 24px;
+    border: none;
+    color: #FF7235;
+}
